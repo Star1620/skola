@@ -1,3 +1,20 @@
+.mainSmallMedia, .mainBigMedia {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid;
+}
+
+.mainBigMedia {
+  border-color: goldenrod;
+}
+
+.mainSmallMedia {
+  border-color: lightskyblue;
+}
+
 @media (min-width: 990px) {
   body {
     background-color: goldenrod;
