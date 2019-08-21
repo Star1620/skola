@@ -41,9 +41,10 @@ ul
         background-color: green;
         text-size: +20%;
         }
-    a::before {
-          content: "**";
+    a::before, a::after {
+          content: "*";
         }
+        
 }
 .dropdown-menu{
     background-color: steelblue;

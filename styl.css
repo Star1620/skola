@@ -40,8 +40,8 @@ ul li:hover {
   background-color: green;
   text-size: 20%;
 }
-ul a::before {
-  content: "**";
+ul a::before, ul a::after {
+  content: "*";
 }
 
 .dropdown-menu {
