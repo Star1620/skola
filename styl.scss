@@ -1,8 +1,58 @@
-$resolution = 150;
+@media (min-width: 990px) {
+    $backBig: goldenrod;
+    
+    body {
+    background-color: $backBig;
+    color: #B22222;
+    margin: 0px auto;
+    }
+    .container {
+    background-color: Chocolate;
+    }
+    h2::before {
+        content: "Welcome to my ";
+    }
+    .list-group-item {
+    background-color: $backBig;
+    }
+}
+@media (max-width: 989px) {
+    $backSmall: lightskyblue;
+    
+    body {
+    background-color: $backSmall;
+    color: #000080;
+    margin: 0px auto;
+    }
+    .container {
+    background-color: steelblue;
+    }
+    .list-group-item {
+    background-color: navy;
+    }
+}
+ul
+{
+    li {
+        backgroud-color: orange;
+        text-size: +10%;
+        }
+    li:hover {
+        background-color: green;
+        text-size: +20%;
+        }
+    a::before {
+          content: "**";
+        }
+}
+.dropdown-menu{
+    background-color: steelblue;
+    
+    }
 
 #navi{
-    max-height: $resolution"px";
+    max-height: 150px;
 }
 #logo{
-    max-height: $resolution-10"px";
+    max-height: 140px;
 }

@@ -1,0 +1,59 @@
+@media (min-width: 990px) {
+  body {
+    background-color: goldenrod;
+    color: #B22222;
+    margin: 0px auto;
+  }
+
+  .container {
+    background-color: Chocolate;
+  }
+
+  h2::before {
+    content: "Welcome to my ";
+  }
+
+  .list-group-item {
+    background-color: goldenrod;
+  }
+}
+@media (max-width: 989px) {
+  body {
+    background-color: lightskyblue;
+    color: #000080;
+    margin: 0px auto;
+  }
+
+  .container {
+    background-color: steelblue;
+  }
+
+  .list-group-item {
+    background-color: navy;
+  }
+}
+ul li {
+  backgroud-color: orange;
+  text-size: 10%;
+}
+ul li:hover {
+  background-color: green;
+  text-size: 20%;
+}
+ul a::before {
+  content: "**";
+}
+
+.dropdown-menu {
+  background-color: steelblue;
+}
+
+#navi {
+  max-height: 150px;
+}
+
+#logo {
+  max-height: 140px;
+}
+
+/*# sourceMappingURL=styl.css.map */

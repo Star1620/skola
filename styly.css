@@ -46,11 +46,10 @@ ul
     background-color: steelblue;
     
     }
-$resolution = 150;
 
 #navi{
-    max-height: $resolution"px";
+    max-height: 150px;
 }
 #logo{
-    max-height: $resolution-10"px";
+    max-height: 140px;
 }
