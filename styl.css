@@ -1,20 +1,3 @@
-.mainSmallMedia, .mainBigMedia {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-  border: 2px solid;
-}
-
-.mainBigMedia {
-  border-color: goldenrod;
-}
-
-.mainSmallMedia {
-  border-color: lightskyblue;
-}
-
 @media (min-width: 990px) {
   body {
     background-color: goldenrod;
@@ -24,6 +7,7 @@
 
   .container {
     background-color: Chocolate;
+    min-height: 600px;
   }
 
   h2::before {
@@ -32,6 +16,11 @@
 
   .list-group-item {
     background-color: goldenrod;
+  }
+
+  footer {
+    position: "fixed; left: 0px; bottom: 0px; width: 100%; text-align: center; border: 2px solid";
+    border-color: goldenrod;
   }
 }
 @media (max-width: 989px) {
@@ -43,10 +32,16 @@
 
   .container {
     background-color: steelblue;
+    min-height: 600px;
   }
 
   .list-group-item {
     background-color: navy;
+  }
+
+  footer {
+    position: "fixed; left: 0px; bottom: 0px; width: 100%; text-align: center; border: 2px solid";
+    border-color: lightskyblue;
   }
 }
 ul li {
