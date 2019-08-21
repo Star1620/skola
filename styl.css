@@ -27,6 +27,12 @@
     color: #B22222;
     text-align: center;
   }
+
+  .names {
+    color: #B22222;
+    position: fixed;
+    align-content: flex-end;
+  }
 }
 @media (max-width: 989px) {
   body {
@@ -52,6 +58,12 @@
     background-color: lightskyblue;
     color: #000080;
     text-align: center;
+  }
+
+  .names {
+    color: #000080;
+    position: fixed;
+    align-content: flex-end;
   }
 }
 ul li {
