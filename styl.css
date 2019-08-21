@@ -18,10 +18,14 @@
     background-color: goldenrod;
   }
 
-  footer {
+  .footer {
     position: fixed;
-    align-self: bottom;
-    border-color: goldenrod;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
   }
 }
 @media (max-width: 989px) {
@@ -40,10 +44,14 @@
     background-color: navy;
   }
 
-  footer {
+  .footer {
     position: fixed;
-    align-self: bottom;
-    border-color: lightskyblue;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
   }
 }
 ul li {
