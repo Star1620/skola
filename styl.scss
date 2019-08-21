@@ -1,3 +1,13 @@
+%footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   width: 100%;
+   text-align: center;
+   border: 2px solid;
+}
+
+
 @media (min-width: 990px) {
     $backBig: goldenrod;
     
@@ -15,6 +25,10 @@
     .list-group-item {
     background-color: $backBig;
     }
+    .main {
+    @extend %footer;
+    border-color: $backBig;
+    }
 }
 @media (max-width: 989px) {
     $backSmall: lightskyblue;
@@ -29,6 +43,10 @@
     }
     .list-group-item {
     background-color: navy;
+    }
+    .main {
+    @extend %footer;
+    border-color: $backSmall;
     }
 }
 ul
@@ -57,3 +75,4 @@ ul
 #logo{
     max-height: 140px;
 }
+
