@@ -11,7 +11,7 @@
   }
 
   h2::before {
-    content: "Welcome to my ";
+    content: "Welcome to ";
   }
 
   .list-group-item {
