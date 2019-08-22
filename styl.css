@@ -65,14 +65,6 @@
     position: fixed;
     align-content: flex-end;
   }
-
-  hr {
-    border-top: 2px dotted #000080;
-  }
-
-  .space {
-    min-height: 30px;
-  }
 }
 ul li {
   backgroud-color: orange;
@@ -96,6 +88,14 @@ ul a::before, ul a::after {
 
 #logo {
   max-height: 140px;
+}
+
+hr {
+  border-top: 2px dotted #000080;
+}
+
+.space {
+  min-height: 30px;
 }
 
 /*# sourceMappingURL=styl.css.map */
