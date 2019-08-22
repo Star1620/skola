@@ -1,52 +1,77 @@
-%footer {
-   position: fixed;
-   left: 0px;
-   bottom: 0px;
-   width: 100%;
-   text-align: center;
-   border: 2px solid;
-}
-
+$backBigScreen: goldenrod;
+$backSmallScreen: lightskyblue;
+$textBigScreen: #B22222;
+$textSmallScreen: #000080;
 
 @media (min-width: 990px) {
-    $backBig: goldenrod;
-    
     body {
-    background-color: $backBig;
-    color: #B22222;
+    background-color: $backBigScreen;
+    color: $textBigScreen;
     margin: 0px auto;
     }
     .container {
     background-color: Chocolate;
+    min-height: 600px;
     }
     h2::before {
-        content: "Welcome to my ";
+        content: "Welcome to ";
     }
     .list-group-item {
-    background-color: $backBig;
+    background-color: $backBigScreen;
     }
-    .main {
-    @extend %footer;
-    border-color: $backBig;
+    .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $backBigScreen;
+    color: $textBigScreen;
+    text-align: center;
+    }
+    .names {
+    color: $textBigScreen;
+    position: fixed;
+    align-content: flex-end;
+    }
+    hr {
+    border-top: 2px dotted $textBigScreen;
+    }
+.space {
+    min-height: 30px;    
     }
 }
 @media (max-width: 989px) {
-    $backSmall: lightskyblue;
-    
     body {
-    background-color: $backSmall;
-    color: #000080;
+    background-color: $backSmallScreen;
+    color: $textSmallScreen;
     margin: 0px auto;
     }
     .container {
     background-color: steelblue;
+    min-height: 600px;
     }
     .list-group-item {
-    background-color: navy;
+    background-color: $backSmallScreen;
     }
-    .main {
-    @extend %footer;
-    border-color: $backSmall;
+    .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $backSmallScreen;
+    color: $textSmallScreen;
+    text-align: center;
+    }
+    .names {
+    color: $textSmallScreen;
+    position: fixed;
+    align-content: flex-end;
+    }
+    hr {
+    border-top: 2px dotted $textSmallScreen;
+    }
+.space {
+    min-height: 30px;    
     }
 }
 ul
@@ -56,7 +81,7 @@ ul
         text-size: +10%;
         }
     li:hover {
-        background-color: green;
+        background-color: silver;
         text-size: +20%;
         }
     a::before, a::after {
