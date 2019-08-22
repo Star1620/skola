@@ -36,10 +36,10 @@
 
   hr {
     border-top: 2px dotted #B22222;
+    width: 100%;
   }
-
-  .space {
-    min-height: 30px;
+  a {
+   color: #B22222;
   }
 }
 @media (max-width: 989px) {
@@ -77,17 +77,20 @@
   hr {
     border-top: 2px dotted #000080;
   }
-
-  .space {
-    min-height: 30px;
+  a {
+   color: #000080;
   }
 }
+.space {
+    min-height: 30px;
+    width: 100%;
+  }
 ul li {
   backgroud-color: orange;
   text-size: 10%;
 }
 ul li:hover {
-  background-color: green;
+  background-color: silver;
   text-size: 20%;
 }
 ul a::before, ul a::after {
@@ -105,5 +108,6 @@ ul a::before, ul a::after {
 #logo {
   max-height: 140px;
 }
+
 
 /*# sourceMappingURL=styl.css.map */
