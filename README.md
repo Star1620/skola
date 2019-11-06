@@ -5,3 +5,4 @@ Site consist of four pages with the same layout: version for devices with resolu
 There are responsive elements, some paragraphs, headings and/or table columns are visible only on bigger screens. 
 I build SCSS file with variables, nesting or inheritance and compiled it by Dart Sass into standard css, which is used by pages.
 I tested links and responsive elements also in Opera (62.0.3331.116), Firefox (68.0.2) and it works fine.
+link : https://star1620.github.io/skola/index.html
